@@ -1,3 +1,20 @@
+/* Images */
+img {
+    border: gray solid 1px;
+    border-radius: 5px;
+    margin: 1em;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
 /* Map outline */
 .outline {
     stroke-width: 2px;
@@ -6,12 +23,12 @@
 }
 
 /* Heading and paragraph text */
-h1, p, h2, h3, h4 {
+h1, p, h2, h3, h4, li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
+    margin: 0.5em 0 0.5em 0;
 }
 
-h1, p {
+h1, h2, p {
     padding: 0 15px;
 }
 
