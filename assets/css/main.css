@@ -169,6 +169,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
+			font-weight: 400;
 		}
 
 	strong, b {
