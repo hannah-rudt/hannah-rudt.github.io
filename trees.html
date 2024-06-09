@@ -26,7 +26,14 @@
 
   body {
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+  }
+
+  svg {
+    /* text-align: center; */
+    margin: auto;
   }
 
   .neighborhood {
@@ -41,9 +48,6 @@
 </style>
 
 <body> 
-	<h1>INFO 4310 - HW1</h1>
-  <h2>Hannah Rudt hgr26</h2>
-
   <!-- Map -->
   <h2 class="title">Caretaker Geographical Distribution</h2>
   <p class="title">Geographic location of San Francisco trees, differentiated by public and private caretakers.</p>
@@ -116,6 +120,7 @@
 			annotations.append("g")
 				.attr("class", "y axis")
 				.attr("transform",`translate(${margin.left-10},${margin.top})`)
+        .style("font-size", "2em")
 				.call(leftAxis)
 			annotations.append("g")
 				.attr("class", "y gridlines")
